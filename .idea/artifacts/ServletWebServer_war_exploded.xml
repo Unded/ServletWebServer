@@ -2,12 +2,13 @@
   <artifact type="exploded-war" name="ServletWebServer:war exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/ServletWebServer_war_exploded</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="ServletWebServer/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="ServletWebServer" />
+          <element id="module-output" name="ServeletWebServer" />
         </element>
       </element>
+      <element id="javaee-facet-resources" facet="ServeletWebServer/web/Web" />
     </root>
   </artifact>
 </component>

@@ -8,7 +8,9 @@ import java.util.List;
 
 public interface ProductDaoInterface {
 
-    Product selectById(int id) throws NoSuchProductException, DaoException;
+    Product selectById(int id) throws NoSuchProductException;
 
     List<Product> selectAll() throws DaoException;
+
+    boolean containsId(int id);
 }

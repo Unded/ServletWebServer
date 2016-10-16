@@ -22,11 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="ServletWebServer" />
+        <module name="ServeletWebServer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ServletWebServer" target="1.8" />
+      <module name="ServeletWebServer" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
