@@ -9,6 +9,9 @@
   <br/><a href="product?id=3">Chocolate</a>
   <br/>
   <br/><a href="allproducts">All products</a>
-
+<br/>
+  <a href="cookie_counter">Cookies Counter</a>
+  <br/>
+  <a href="session_counter">Session Counter</a>
   </body>
 </html>

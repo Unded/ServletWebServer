@@ -26,7 +26,7 @@ public class ProductController extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        int id = Integer.valueOf(request.getParameter(ID_PARAMETER));
+        int id = (Integer) request.getAttribute(ID_PARAMETER);
         if (data.containsId(id)){
             try {
                 Product productModel = data.selectById(id);

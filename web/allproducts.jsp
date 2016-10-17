@@ -11,6 +11,7 @@
                 Id: ${product.id}, Name: ${product.name}<br>
     </c:forEach>
 </ul>
+<br/>
 <a href="index.jsp">Main page</a>
 </body>
 </html>

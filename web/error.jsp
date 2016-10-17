@@ -7,6 +7,7 @@
 <b>Error page</b>
 <br/>Id: ${product.id}
 <br/>Name: ${product.name}
+<br/>
 <a href="index.jsp">Main page</a>
 </body>
 </html>
