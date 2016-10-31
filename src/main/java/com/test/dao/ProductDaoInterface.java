@@ -12,5 +12,4 @@ public interface ProductDaoInterface {
 
     List<Product> selectAll() throws DaoException;
 
-    boolean containsId(int id);
 }

@@ -37,8 +37,4 @@ public class ProductDaoImpl implements ProductDaoInterface {
         }
     }
 
-    @Override
-    public boolean containsId(int id) {
-        return data.containsKey(id);
-    }
 }
